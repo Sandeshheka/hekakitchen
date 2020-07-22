@@ -215,3 +215,7 @@ Route::get('/all/Message', 'ContactController@allMessage')->name('all.contact');
 
 Route::post('/productSearch', 'CartController@search')->name('product.search');
 
+
+
+Route::get('/check', function () {
+        return view('landing.includes.landingSlider');});
